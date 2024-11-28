@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 71px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.les_nav{
+    display: flex;
+    align-items: center;
+}
+.head_nav{
+    display: flex;
+    gap: 30px;
+}
+.head_nav a{
+    color: black;
+}
+input{
+    width: 256px;
+    height: 36px;
+    background-color: #FC004A;
+    border-radius: 15px;
+    border: transparent;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+.loct{
+    position: relative;
+    left: 50px;
+}
+main{
+    background: url(Link\ →\ m69XYpPxUafYX7FG9FYmo8MBVJYWJyh9XoVGH371.jpg.png) no-repeat center/cover;
+   height: 500px;
+    margin-top: 63px;
+}
+h2{
+width: 84px;
+height: 40px;
+margin-top: 40px;
+font-family: 'Inter';
+font-size: 32.48px;
+font-weight: 400;
+line-height: 40px;
+margin-left: 80px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #262626;
+}
+
+.main_content {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: space-between; 
+    max-width: 1000px;   
+    margin: auto;
+}
+.box{
+    border-radius: 15px ;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    text-align: center;
+    } 
+   .box h3{
+    font-family: 'Inter';
+    font-size: 17.66px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 8px;
+    text-underline-position: from-font;
+    color: #000000;
+   }
+   .box p{
+   font-family: 'Inter';
+   font-size: 18.28px;
+   font-weight: 500;
+   line-height: 28px;
+   text-align: left;
+   padding-left: 8px;
+   text-underline-position: from-font;
+   color: #FC004A;
+   }
+   .imggg{
+    position: relative;
+    left: 90px;
+   }
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    margin-top: 50px;
+
+}
+
+.foot{
+  display: flex;  
+  gap: 100px;
+ align-items: center;
+  
+}
+.footer img{
+    margin-left: 260px;
+    
+}
+   
